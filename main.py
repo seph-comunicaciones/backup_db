@@ -144,6 +144,7 @@ if __name__ == '__main__':
     backup = BackUp(0.5, "C:/Users/PC/Documents/backup_db")
     backup.limpiar_carpeta()
     backup.abrir_datagrip()
+    backup.export_db()
     backup.export_data()
     backup.comprimir_backup()
     backup.subir_backup_onedrive()
